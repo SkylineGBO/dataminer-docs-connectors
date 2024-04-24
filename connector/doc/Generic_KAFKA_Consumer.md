@@ -40,6 +40,8 @@ This connector uses a virtual connection and does not require any input during e
 
 When you have created an element, you still need to configure several things based on your KAFKA system.
 
+NOTE: If upgrading from version 1.0.0.8 or below, the DLL's will need to be updated on the DMA system. To do this, stop the DMA agent and remove the DLL's in the C:\Skyline DataMiner\ProtocolScripts\DllImport directory and then upload the latest package from the catalog.
+
 #### Mandatory configuration
 
 Add one or more **brokers** to the element:
